@@ -1,5 +1,4 @@
 // cards.js
-// Ported from playingcards.py
 
 export const SUITS = {
   hearts:   { name: "hearts",   symbol: "♥" },
