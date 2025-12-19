@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cribbage</title>
+  <link rel="stylesheet" href="cribbage.css" />
+</head>
+<body>
+
+  <h1>Cribbage</h1>
+
+  <!-- SCOREBOARD -->
+  <div id="scoreboard">
+    <div>Player 1 Score: <span id="score-p1">0</span></div>
+    <div>Player 2 Score: <span id="score-p2">0</span></div>
+  </div>
+
+  <div id="table">
+
+    <!-- PLAYER 2 (TOP) -->
+    <h3>Player 2</h3>
+    <div class="hand" id="player2-hand"></div>
+
+    <!-- CENTER AREA -->
+    <div id="center">
+
+      <div id="deck">DECK</div>
+
+      <!-- CRIB -->
+      <div id="crib-area">
+        <h3>Crib</h3>
+        <div id="crib"></div>
+      </div>
+
+      <!-- CUT / STARTER CARD -->
+      <div id="starter-area" class="hidden">
+        <h3 id="starter-label">Cut Card</h3>
+        <div id="starter"></div>
+      </div>
+
+    </div>
+
+    <!-- CONTROLS -->
+    <button id="discard-btn">Discard Selected</button>
+
+    <div id="pegging">
+      <h3>Pegging</h3>
+      <div>Current total: <span id="peg-total">0</span></div>
+      <div id="peg-pile"></div>
+    </div>
+
+    <button id="restart-btn">Restart Game</button>
+
+    <!-- PLAYER 1 (BOTTOM) -->
+    <h3>Player 1</h3>
+    <div class="hand" id="player1-hand"></div>
+
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
