@@ -1,0 +1,57 @@
+Interview with student who actually plays cribbage (Ezra Gould): 
+
+How do you usually play Cribbage: physically with friends, online, or against AI?: Physically 
+
+What do you enjoy most about playing card games like Cribbage?: The mix between luck and skill, the logic behind when to play what cards. 
+
+What frustrates you about playing Cribbage (physically or digitally)?: The fact that it is so luck dependent and some games you're just dealt a bad hand while the other player is dealt a good hand. 
+
+What do you like about playing card games digitally compared to physically?: you don't have to physically shuffle. 
+
+What features do you expect in a digital card game? (e.g., hints, scoring, AI opponents): Expects just the game nothing more.  
+
+Have you ever quit a digital card game because it was confusing, frustrating, or boring? Why?: Most likely, can't remember specifics. 
+
+How comfortable are you with the rules of Cribbage? Are there parts that are confusing?: Very comfortable, has been playing for about 14 years. 
+
+How do you feel about features like automated scoring or highlighting possible moves?: It is helpful. 
+
+ What motivates you to play card games for fun? Competition, relaxation, socializing?: competition and socializing, not an activity to relax to. 
+
+What frustrates you enough to stop playing a game mid-session?: losing very badly 
+
+Do you prefer short games that finish quickly or longer, more strategic games: longer games in general 
+
+Do you care about animations, sound effects, or music during gameplay?: no 
+
+Are there accessibility features you need or would like (colorblind mode, adjustable font size, etc.)?: no 
+
+How important is it for you to track scores visually vs. Numerically?: it would be nice to have a visual scoreboard. 
+
+Are there parts of a game that feel slow, repetitive, or unintuitive?: the whole game is repetitive, but that's the point. Repetition is not seen as a con for him. 
+
+ 
+
+Ideation 
+
+Possible Issues: getting dealt a bad hand (often) 
+
+Fix:  
+
+a) Allow a “mulligan” for the initial deal 
+
+Let the player redeal their hand once per round if they really hate their cards. 
+
+To preserve fairness: 
+
+Limit it to once per game or once per X rounds. 
+
+a) Weighted or pseudo-random dealing 
+
+Instead of purely uniform shuffling: 
+
+Detect extremely poor hands (<2 possible 15s, no runs, no pairs). 
+
+Allow a reshuffle only in edge cases. 
+
+ 
