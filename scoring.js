@@ -1,6 +1,3 @@
-// scoring.js
-// Ported from scoring.py
-
 // Helper: combinations
 function combinations(arr, size) {
   if (size === 0) return [[]];
