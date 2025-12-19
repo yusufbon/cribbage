@@ -10,9 +10,6 @@ import {
  *
  * Minimal stub matching the production Card interface
  * used by scoring.js.
- *
- * We intentionally do NOT import the real Card class
- * to keep these tests isolated from deck/UI logic.
  */
 class TestCard {
   constructor(rankSymbol, rankValue) {
