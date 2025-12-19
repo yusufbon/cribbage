@@ -8,9 +8,6 @@
  *  - Show scoring: non-dealer hand, dealer hand, dealer crib
  *  - Round loop until someone reaches 121
  *
- * KEY DESIGN CHOICE:
- *  Pegging removes cards from player hands, but show scoring must score the original 4-card hands.
- *  Therefore we snapshot (copy) the hands right after discarding and use those copies later.
  */
 
 import { Deck } from "./cards.js";
