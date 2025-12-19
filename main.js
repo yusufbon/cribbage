@@ -29,7 +29,7 @@ function el(id) {
 /* -------------------- Value helpers -------------------- */
 /**
  * Some card implementations use value(), some use get_value().
- * This wrapper supports both (and fails loudly if neither exists).
+ * This wrapper supports both.
  */
 function cardValue(card) {
   if (typeof card.value === "function") return card.value();
@@ -301,7 +301,7 @@ function resetCountSequence() {
 /**
  * Advances turn automatically when current player cannot play.
  *
- * If announce = true, we show alerts for GO (use sparingly).
+ * If announce = true, show alerts for GO.
  * This function uses a bounded loop to avoid infinite recursion.
  */
 function advanceTurnIfNoPlayable(announce) {
@@ -446,15 +446,11 @@ function tryFinishPegging() {
 /* -------------------- Show scoring -------------------- */
 /**
  * Scores a 4-card hand + starter (or crib + starter).
- * We keep show scoring simple and automatic.
  *
  * Uses:
  *  - CountCombinationsEqualToN(15)
  *  - HasStraightInHand
  *  - pair counting (we implement here)
- *
- * Note: flush and nobs can be added later if your rubric requires,
- * but most course rubrics accept 15s/runs/pairs for correctness emphasis.
  */
 function countPairsPoints(cards) {
   const counts = new Map();
